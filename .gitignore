@@ -4,3 +4,4 @@ dist
 *.tsbuildinfo
 *.prompt.*
 .vscode/*.code-snippets
+.DS_Store

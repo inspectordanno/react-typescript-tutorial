@@ -1,4 +1,5 @@
 // Imagine NavBar is an external library!
+import { ComponentProps } from "react";
 
 export const NavBar = (props: {
   title: string;
@@ -12,7 +13,7 @@ export const NavBar = (props: {
 
 import { Equal, Expect } from "../helpers/type-utils";
 
-type NavBarProps = unknown;
+type NavBarProps = ComponentProps<typeof NavBar>
 
 type test = Expect<
   Equal<
